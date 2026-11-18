@@ -35,13 +35,13 @@ class AdminPage {
         echo '<h1>AI Chat</h1>';
         echo '<form method="post">';
         echo '<textarea name="message" rows="5" style="width:100%;"></textarea><br><br>';
-        echo '<button type="submit" class="button button-primary">Отправить</button>';
+        echo '<button type="submit" class="button button-primary">Send</button>';
         echo '</form>';
         echo '</div>';
 
         // response output
         if ( $response ) {
-            echo '<h2>Ответ:</h2>';
+            echo '<h2>AI response:</h2>';
             echo '<div style="background:#fff; padding:15px; border:1px solid #ddd;">' . nl2br( esc_html( $response ) ) . '</div>';
         }
 
