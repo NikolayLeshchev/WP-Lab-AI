@@ -1,5 +1,7 @@
 <?php
 
+namespace WpLab\AI\Api;
+
 if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
@@ -13,7 +15,7 @@ class GroqClient {
     }
 
     private function loadApiKey(): void {
-        $envPath = __DIR__ . '/../.env';
+        $envPath = __DIR__ . '/../../.env';
 
         if ( ! file_exists( $envPath ) ) {
             return;

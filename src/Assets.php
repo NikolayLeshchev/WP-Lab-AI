@@ -1,5 +1,7 @@
 <?php
 
+namespace WpLab\AI;
+
 class Assets {
     public function register(): void {
         add_action( 'admin_enqueue_scripts', [ $this, 'enqueue' ] );

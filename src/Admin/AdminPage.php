@@ -1,5 +1,8 @@
 <?php
 
+namespace WpLab\AI\Admin;
+use WpLab\AI\Api\GroqClient;
+
 if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
