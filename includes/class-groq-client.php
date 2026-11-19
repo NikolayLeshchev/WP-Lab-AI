@@ -53,14 +53,14 @@ class GroqClient {
                 'messages' => [
                     [
                         'role'    => 'system',
-                        'content' => 'You are a helpful assistant.',
+                        'content' => 'You are an experienced content editor and SEO specialist. You help content managers write clear, engaging, and SEO-friendly texts. Always follow the user\'s instructions precisely. When generating titles or meta descriptions, respect character limits. Be concise and practical.',
                     ],
                     [
                         'role'    => 'user',
                         'content' => $message,
                     ],
                 ],
-                'temperature' => 0.7,
+                'temperature' => 0.5,
                 'max_tokens'  => 500,
             ] ),
             'timeout' => 30,

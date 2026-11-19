@@ -1,0 +1,147 @@
+.wrap-ai-chat {
+    max-width: 860px;
+    margin: 20px 20px 40px 0;
+    padding: 28px 32px 32px;
+    background: #fff;
+    border: 1px solid #dcdcde;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.wrap-ai-chat > h1 {
+    margin: 0 0 8px;
+    padding: 0;
+    color: #1d2327;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.wrap-ai-chat > p {
+    margin: 0 0 24px;
+    color: #50575e;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.fast-panel {
+    margin-bottom: 24px;
+    padding: 20px;
+    background: #f6f7f7;
+    border: 1px solid #dcdcde;
+    border-radius: 8px;
+}
+
+.fast-panel h2 {
+    margin: 0 0 8px;
+    color: #1d2327;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.fast-panel p {
+    margin: 0 0 16px;
+    color: #646970;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.fast-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.fast-buttons button {
+    margin: 0;
+    padding: 8px 14px;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    background: #fff;
+    color: #1d2327;
+    font-size: 13px;
+    line-height: 1.4;
+    cursor: pointer;
+}
+
+.fast-buttons button:hover,
+.fast-buttons button:focus {
+    border-color: #2271b1;
+    background: #f0f6fc;
+    color: #2271b1;
+    outline: none;
+}
+
+.button-suggest-title {
+    border-left: 3px solid #2271b1;
+}
+
+.button-generate-seo-description {
+    border-left: 3px solid #00a32a;
+}
+
+.button-summuraze-post {
+    border-left: 3px solid #dba617;
+}
+
+.button-improve-text {
+    border-left: 3px solid #8c5bd2;
+}
+
+#form-ai-chat {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+#form-ai-chat textarea {
+    width: 100%;
+    min-height: 140px;
+    margin: 0;
+    padding: 12px 14px;
+    border: 1px solid #8c8f94;
+    border-radius: 4px;
+    background: #fff;
+    color: #1d2327;
+    font-size: 14px;
+    line-height: 1.5;
+    resize: vertical;
+    box-shadow: none;
+}
+
+#form-ai-chat textarea:focus {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+    outline: none;
+}
+
+#form-ai-chat .button-primary {
+    min-width: 120px;
+    height: auto;
+    padding: 8px 18px;
+}
+
+.ai-response {
+    margin-top: 28px;
+}
+
+.ai-response h2 {
+    margin: 0 0 12px;
+    color: #1d2327;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.ai-response__body {
+    padding: 16px 18px;
+    background: #f6f7f7;
+    border: 1px solid #dcdcde;
+    border-left: 4px solid #2271b1;
+    border-radius: 4px;
+    color: #1d2327;
+    font-size: 14px;
+    line-height: 1.6;
+}
