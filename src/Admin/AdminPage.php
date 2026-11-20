@@ -44,7 +44,7 @@ class AdminPage {
                 <div class="fast-buttons">
                     <button class="button-suggest-title">Suggest title</button>
                     <button class="button-generate-seo-description">Generate SEO-description</button>
-                    <button class="button-summuraze-post">Summuraze post</button>
+                    <button class="button-summuraze-post">Summarize post</button>
                     <button class="button-improve-text">Improve text</button>
                 </div>
             </div>

@@ -63,7 +63,7 @@ class GroqClient {
                     ],
                 ],
                 'temperature' => 0.5,
-                'max_tokens'  => 500,
+                'max_tokens'  => 1500,
             ] ),
             'timeout' => 30,
         ] );
